@@ -42,9 +42,9 @@ def decrypt_message(message, cipher_table):
     return decrypted_message
 
 # Создаем исходный алфавит и сообщение
-alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
-initiator_message = "привет"
-responder_message = "мир"
+alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789"
+initiator_message = "уважаемый игорь феодосьевич свободный текст 12082002 слобожанин роман анатольевич"
+responder_message = "уважаемый роман анатольевич безмерно рад нашему сотрудничеству надеюсь на его дальнейшее успешное и взаимовыгодное развитие  с уважением игорь феодосьевич"
 
 # Сливаем сообщения инициатора и ответчика
 merged_message = initiator_message + responder_message
